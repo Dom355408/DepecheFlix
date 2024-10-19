@@ -1,0 +1,60 @@
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(71, 143, 71);
+    margin: 0px;
+    font-family: "Montserrat", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(255, 255, 255);
+    padding: 25px;
+    font-size: 32px;
+    color: rgb(95, 68, 68);
+}
+
+.Chamada {
+    background: rgb(14, 60, 67);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.Chamada-Texto {
+    margin-right: 7%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.Categoria {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 32px;
+}
+
+.Vídeos img {
+    opacity: 0.7;
+    height: 200px;
+}
+
+.Vídeos img:hover {
+    opacity: 1.0;
+    border: 2px solid white;
+}
+
+.Categoria h2 {
+    color: rgb(95, 68, 68)
+}
